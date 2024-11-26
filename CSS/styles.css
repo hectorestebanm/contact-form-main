@@ -1,3 +1,4 @@
+/* Variables iniciales */
 :root
 {
     --Green_200: hsl(148, 38%, 91%);
@@ -9,12 +10,15 @@
     --Border-Radius: 6px;
 }
 
+/* Parámetros globales */
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* Clases y etiquetas para el index de la página */
 
 body
 {
@@ -48,6 +52,7 @@ label
     font-size: 14px;
 }
 
+/* Estilos para el nombre */
 .form__name
 {
     display: flex;
@@ -77,6 +82,7 @@ label
     font-size: 13px;
 }
 
+/* Estilos para el apellido */
 .form__last
 {
     display: flex;
@@ -106,6 +112,7 @@ label
     font-size: 13px;
 }
 
+/* Estilos para el apellido */
 .form__email
 {
     display: flex;
@@ -142,6 +149,7 @@ label
     font-size: 13px;
 }
 
+/* Estilos para los radio button */
 .form__radio
 {
     display: flex;
@@ -185,6 +193,7 @@ label
     font-size: 13px;
 }
 
+/* Estilo para el mensaje */
 .form__mensaje
 {
     display: flex;
@@ -214,6 +223,7 @@ label
     border: 2px solid var(--Green_600);
 }
 
+/* Estilo para el checkbox */
 .form__checkbox
 {
     display: flex;
@@ -247,6 +257,7 @@ label
     font-size: 13px;
 }
 
+/* Estilo para el boton de submit */
 .form__submit
 {
     width: 100%;
@@ -265,6 +276,7 @@ label
     background-color: var(--Grey_900);
 }
 
+/* Estilo para el bloque de confirmación de envío de formulario */
 .success
 {
     width: 350px;
@@ -293,6 +305,7 @@ label
     padding: 0 0 20px 0;
 }
 
+/* Media query para las diferentes pantallas */
 @media screen and (min-width: 992px)
 {
     .formulario

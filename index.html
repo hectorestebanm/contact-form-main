@@ -11,19 +11,24 @@
     <title>Frontend Mentor | Contact form</title>
 </head>
 <body>
+    <!-- Main principal -->
     <main class="main__form">
         <h1 class="titulo__h1">Contact Us</h1>
+        <!-- Formulario -->
         <form class="formulario">
+            <!-- Bloque del nombre -->
             <div class="form__name">
                 <label for="">First Name *</label>
                 <input id="form__name" type="text" class="form__name__input">
                 <p id="form__name__invalido" class="form__name__p">This field is required</p>
             </div>
+            <!-- Bloque del apellido -->
             <div class="form__last">
                 <label for="">Last Name *</label>
                 <input id="form__last" type="text" class="form__last__input">
                 <p class="form__last__p">This field is required</p>
             </div>
+            <!-- Bloque de la dirección de email -->
             <div class="form__email">
                 <label for="">Email Address *</label>
                 <input type="email" class="form__email__input">
@@ -31,6 +36,7 @@
                 <p class="form__email__p2">This field is required</p>
             </div>
             <label for="">Query Type *</label>
+            <!-- Bloques para los radio button -->
             <div class="form__radio" id="radio__1">
                 <input type="radio" class="form__radio__input" id="form__radio__input__1" name="form__radio__input" value="radio__1">
                 <label for="form__radio__input__1">General Enquiry</label>
@@ -40,11 +46,13 @@
                 <label for="form__radio__input__2">Support Request</label>
             </div>
             <p class="form__radio__p">Please select a query type</p>
+            <!-- Bloque para el mensaje -->
             <div class="form__mensaje">
               <label for="">Message *</label>
               <textarea name="" id="" class="form__area"></textarea>
               <p class="form__mensaje__p">This field is required</p>
             </div>
+            <!-- Bloque para el checkbox -->
             <div class="form__checkbox">
                 <div class="form__checkbox__input">
                     <input type="checkbox" name="" id="form__checkbox__input" class="form__checkbox__input__style">
@@ -52,15 +60,18 @@
                 </div>
                 <p class="form__checkbox__p">To submit this form, please consent to being contacted</p>
             </div>
+            <!-- Botón de submit para enviar el formulario -->
             <input type="submit" value="Submit" class="form__submit">
         </form>  
     </main>
 
+    <!-- Pie de página -->
     <footer class="attribution">
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>. 
         Coded by <a href="#">Héctor Montaño</a>.
     </footer>
 
+    <!-- Bloque para confirmar el envió de formulario -->
     <div class="success">
         <div class="success__h3">
             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="21" fill="none" viewBox="0 0 20 21"><path fill="#fff" d="M14.28 7.72a.748.748 0 0 1 0 1.06l-5.25 5.25a.748.748 0 0 1-1.06 0l-2.25-2.25a.75.75 0 1 1 1.06-1.06l1.72 1.72 4.72-4.72a.75.75 0 0 1 1.06 0Zm5.47 2.78A9.75 9.75 0 1 1 10 .75a9.76 9.76 0 0 1 9.75 9.75Zm-1.5 0A8.25 8.25 0 1 0 10 18.75a8.26 8.26 0 0 0 8.25-8.25Z"/></svg>
@@ -69,7 +80,7 @@
         <p>Thanks for completing the form. We'll be in touch soon!</p>
     </div>
 
-
+    <!-- Script para el archivo .js -->
     <script src="JS/scripts.js"></script>
 </body>
 </html>
